@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.extra-bold {
+	font-family: 'Montserrat', sans-serif;
+}
+
 nav {
-	height: 100px;
-	line-height: 100px;
+	height: 15vh;
+	line-height: 15vh;
+	box-shadow: none !important;
+}
+
+body, html {
+	height: 100%;
 }
 
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
-	height: 100px;
-	line-height: 100px;
+	height: 15vh;
+	line-height: 15vh;
 }
 
 nav .brand-logo {
@@ -31,8 +42,8 @@ nav .brand-logo {
 }
 
 nav .button-collapse i {
-	height: 100px;
-	line-height: 100px;
+	height: 15vh;
+	line-height: 15vh;
 }
 
 nav .brand-logo { 
@@ -56,9 +67,26 @@ nav .brand-logo {
 	color: #64348C !important;
 }
 
+.one {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/image-1.png');
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	opacity: 61%;
+	height: 91vh;
+}
+
+.one .text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
+
 @media only screen and (min-width: 601px){
 	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-			height: 100px;
-			line-height: 100px;
+			height: 15vh;
+			line-height: 15vh;
 	}
 }

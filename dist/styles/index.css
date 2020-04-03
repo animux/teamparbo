@@ -84,6 +84,18 @@ nav .brand-logo {
 	margin: 0 auto;
 }
 
+.two .text {
+	position: absolute !important;
+	/* left: 50% !important; */
+	top: 25% !important;
+	bottom: 75% !important;
+	transform: translate(50%, -50%) !important;
+}
+
+.darker {
+	background: linear-gradient(rbga(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+};
+
 @media only screen and (min-width: 601px){
 	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 			height: 15vh;
